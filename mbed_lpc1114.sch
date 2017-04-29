@@ -533,12 +533,12 @@ $EndComp
 $Comp
 L GND #PWR019
 U 1 1 5904C964
-P 5700 3300
-F 0 "#PWR019" H 5700 3050 50  0001 C CNN
-F 1 "GND" H 5700 3150 50  0000 C CNN
-F 2 "" H 5700 3300 50  0001 C CNN
-F 3 "" H 5700 3300 50  0001 C CNN
-	1    5700 3300
+P 5850 3300
+F 0 "#PWR019" H 5850 3050 50  0001 C CNN
+F 1 "GND" H 5850 3150 50  0000 C CNN
+F 2 "" H 5850 3300 50  0001 C CNN
+F 3 "" H 5850 3300 50  0001 C CNN
+	1    5850 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -757,7 +757,9 @@ Connection ~ 10600 4900
 Wire Wire Line
 	10600 3850 10600 4050
 Wire Wire Line
-	5150 4500 9750 4500
+	5150 4500 5550 4500
+Wire Wire Line
+	5550 4500 9750 4500
 Wire Wire Line
 	9750 4500 9950 4500
 Wire Wire Line
@@ -808,9 +810,7 @@ Wire Wire Line
 Connection ~ 2300 4450
 Connection ~ 2300 4850
 Wire Wire Line
-	1800 2900 5600 2900
-Wire Wire Line
-	5600 2900 6900 2900
+	5650 2900 6900 2900
 Wire Wire Line
 	2050 2800 2050 3000
 Wire Wire Line
@@ -877,9 +877,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 5000 5150 5000
 Wire Wire Line
-	5150 4400 6450 4400
-Wire Wire Line
-	6450 4400 7750 4400
+	5150 4400 7750 4400
 Wire Wire Line
 	3200 5950 6950 5950
 Wire Wire Line
@@ -907,15 +905,14 @@ Wire Wire Line
 Wire Wire Line
 	5150 4100 5250 4100
 Wire Wire Line
-	5250 4100 5600 4100
+	5250 4100 5650 4100
 Connection ~ 2900 4400
-Connection ~ 5600 2900
 Wire Wire Line
 	2900 3000 6900 3000
 Wire Wire Line
-	6900 3200 5700 3200
+	6900 3200 5850 3200
 Wire Wire Line
-	5700 3200 5700 3300
+	5850 3200 5850 3300
 Wire Wire Line
 	6900 3300 6000 3300
 Wire Wire Line
@@ -1004,7 +1001,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 5350 8050 5500
 Connection ~ 6850 5850
-Connection ~ 6450 4400
 Wire Wire Line
 	3450 5100 3000 5100
 Wire Wire Line
@@ -1040,7 +1036,7 @@ Wire Wire Line
 Connection ~ 5450 5200
 NoConn ~ 6900 3100
 Wire Wire Line
-	5600 4100 5600 2900
+	5650 4100 5650 2900
 Connection ~ 5250 4100
 Wire Wire Line
 	9750 3250 9750 3300
@@ -1048,4 +1044,9 @@ Wire Wire Line
 	9750 4850 9750 4900
 Wire Wire Line
 	3650 2150 3650 2100
+Wire Wire Line
+	1800 2900 5550 2900
+Wire Wire Line
+	5550 2900 5550 4500
+Connection ~ 5550 4500
 $EndSCHEMATC
