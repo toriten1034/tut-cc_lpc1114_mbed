@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/kousuke/tut-cc_lpc1114_mbedLike/mbed_lpc1114.sch)
-    (date "2017年04月30日 11時36分02秒")
+    (date "2017年04月30日 13時44分58秒")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -173,7 +173,7 @@
       (tstamp 5905231B))
     (comp (ref R8)
       (value 330)
-      (footprint Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal)
+      (footprint Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 59052C6B))
@@ -365,16 +365,16 @@
         (pin (num 27) (name dp27/scl) (type BiDi))
         (pin (num 28) (name dp28/LED2) (type BiDi)))))
   (libraries
+    (library (logical regul)
+      (uri /usr/share/kicad/library/regul.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical regul)
-      (uri /usr/share/kicad/library/regul.lib))
-    (library (logical switch)
-      (uri /home/kousuke/tut-cc_lpc1114_mbedLike/switch.lib))
     (library (logical pl2303sa)
       (uri /home/kousuke/tut-cc_lpc1114_mbedLike/pl2303sa.lib))
+    (library (logical switch)
+      (uri /home/kousuke/tut-cc_lpc1114_mbedLike/switch.lib))
     (library (logical lpc1114fn28)
       (uri /home/kousuke/tut-cc_lpc1114_mbedLike/lpc1114fn28.lib)))
   (nets
