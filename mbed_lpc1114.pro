@@ -1,4 +1,4 @@
-update=2017年04月29日 19時54分29秒
+update=2017年04月30日 10時04分55秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=pl2303sa
 LibName31=switch
 LibName32=lpc1114fn28
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
